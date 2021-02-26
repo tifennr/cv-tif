@@ -253,12 +253,14 @@
                                             <h5 class="font-weight-bold mt-4 mb-3">Badre Mokhlis</h5>
                                             <p class="text-uppercase blue-text"><strong>Graphic designer</strong>
                                             </p>
-                                            <p class="grey-text mr-5 ml-5">.
-                                                Je me suis lancée tout seul en autodidacte dans l'apprentissage de
+                                            <p class="grey-text mr-5 ml-5">Je me suis lancée tout seul en autodidacte
+                                                dans l'apprentissage de
                                                 l'HTML et du CSS, puis ensuite dans d'autres langages.</p>
                                             <div class="row">
                                                 <div class="col">
-                                                    <button class="btn btn-primary" type="submit">Contacter</button>
+                                                    <button class="btn btn-primary" type="submit"><a title="E-mail"
+                                                            data-toggle="popover" data-placement="bottom"
+                                                            data-content="b.mokhlis@digital-box.fr">Contacter</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -278,7 +280,9 @@
                                             </p>
                                             <div class="row">
                                                 <div class="col">
-                                                    <button class="btn btn-primary" type="submit">Contacter</button>
+                                                    <button class="btn btn-primary" type="submit"><a title="E-mail"
+                                                        data-toggle="popover" data-placement="bottom"
+                                                        data-content="c.sampedro@digital-box.fr">Contacter</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -296,7 +300,9 @@
                                                 Curiosité, je creer du code en combinant logic et créativité </p>
                                             <div class="row">
                                                 <div class="col">
-                                                    <button class="btn btn-primary" type="submit">Contacter</button>
+                                                    <button class="btn btn-primary" type="submit"><a title="E-mail"
+                                                        data-toggle="popover" data-placement="bottom"
+                                                        data-content="j.orth@digital-box.fr">Contacter</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -336,7 +342,9 @@
                                                 d'un stage pour juin.</p>
                                             <div class="row">
                                                 <div class="col">
-                                                    <button class="btn btn-primary" type="submit">Contacter</button>
+                                                    <button class="btn btn-primary" type="submit"><a title="E-mail"
+                                                        data-toggle="popover" data-placement="bottom"
+                                                        data-content="c.meux-degans@digital-box.fr">Contacter</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -356,7 +364,9 @@
                                                 d'équipe sont les qualités qui me définissent le mieux.</p>
                                             <div class="row">
                                                 <div class="col">
-                                                    <button class="btn btn-primary" type="submit">Contacter</button>
+                                                    <button class="btn btn-primary" type="submit"><a title="E-mail"
+                                                        data-toggle="popover" data-placement="bottom"
+                                                        data-content="a.caldato@digital-box.fr">Contacter</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -376,7 +386,9 @@
                                                 voluptates perferendis voluptatibus aut.</p>
                                             <div class="row">
                                                 <div class="col">
-                                                    <button class="btn btn-primary" type="submit">Contacter</button>
+                                                    <button class="btn btn-primary" type="submit"><a title="E-mail"
+                                                        data-toggle="popover" data-placement="bottom"
+                                                        data-content="z.chebouba@digital-box.fr">Contacter</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -451,7 +463,8 @@
                                             <h5 class="font-weight-bold mt-4 mb-3">Tifenn Roberdeau</h5>
                                             <p class="text-uppercase blue-text"><strong>Backend developer</strong>
                                             </p>
-                                            <p class="grey-text mr-5 ml-5">Passionné du numérique et de graphisme c'est donc naturellement que je
+                                            <p class="grey-text mr-5 ml-5">Passionné du numérique et de graphisme c'est
+                                                donc naturellement que je
                                                 me suis orienté vers une formation de developpeur web.</p>
                                             <div class="row">
                                                 <div class="col">
@@ -776,6 +789,11 @@
     <script src="js/now-ui-kit.js?ver=1.1.0"></script>
     <script src="js/aos.js?ver=1.1.0"></script>
     <script src="scripts/main.js?ver=1.1.0"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
 </body>
 
 </html>
