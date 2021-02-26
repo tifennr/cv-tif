@@ -47,6 +47,10 @@
     transition: transform .4s;
 }
 
+[data-theme="dark"] #particles-js {
+    transition: transform .4s;
+    background-color: #111;
+}
 
 
 
